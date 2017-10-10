@@ -18,7 +18,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
 
-            _player = new Player;
+            _player = new Player();
 
             _player.CurrentHitPoints = 10;
             _player.MaximumHitPoints = 10;
