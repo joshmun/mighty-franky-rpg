@@ -18,6 +18,11 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
 
+            Location location = new Location();
+            location.ID = 1;
+            location.Name = "Home";
+            location.Description = "This is your house.";
+
             _player = new Player();
 
             _player.CurrentHitPoints = 10;
